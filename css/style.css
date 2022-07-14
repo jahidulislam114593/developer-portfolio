@@ -1,0 +1,182 @@
+/* 
+
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.home_banner {
+    width: 100%;
+    height: 100vh;
+    background: url(../image/top-banner.png);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+
+.home {
+    display: flex;
+}
+
+.home_left {
+    width: 50%;
+    padding-top: 5%;
+}
+
+.home_left h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    padding-bottom: 35px;
+    padding-top: 5px;
+}
+
+.home_left h1 span {
+    color: orange;
+}
+
+.home_left h3 {
+    font-size: 18px;
+    padding: 15px 0px;
+}
+
+.home_left p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.home_right {
+    width: 50%;
+    padding-top: 5%;
+}
+
+.home_right img {
+    width: 100%;
+    height: auto;
+}
+
+/* .dreamSection {
+    background: url(../image/dream-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+} */
+
+.dreamBig {
+    display: flex;
+}
+
+.d_right {
+    width: 50%;
+    padding-top: 5%;
+    padding-left: 8%;
+}
+
+.d_left {
+    width: 50%;
+    padding-top: 5%;
+}
+
+.d_left img {
+    width: 100%;
+    height: auto;
+}
+
+.d_right h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    padding-bottom: 35px;
+    padding-top: 5px;
+}
+
+.d_right h3 {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 0px;
+
+}
+
+.d_right p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg_img {
+    position: relative;
+}
+
+.bg_img img {
+    position: absolute;
+    right: -101px;
+    top: -55px;
+}
+
+.experienceSection {
+    margin-top: 15%;
+}
+
+.boxes {
+    display: flex;
+}
+
+.heading h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    font-size: 50px;
+}
+
+.box {
+    width: 50%;
+    box-shadow: 7px 3px 18px 7px grey;
+    height: 80%;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: 30px 20px;
+}
+
+.box h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    font-size: 50px;
+}
+
+.box h3 {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: orange;
+    padding-bottom: 15px;
+}
+
+.box p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    padding-bottom: 20px;
+}
